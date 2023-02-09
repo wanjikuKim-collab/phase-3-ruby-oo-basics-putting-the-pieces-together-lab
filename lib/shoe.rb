@@ -1,4 +1,4 @@
-# Make your shoe class here!
+# Make your Shoe class here!
 class Shoe
     attr_reader :brand
     attr_accessor :color, :size, :material , :condition
@@ -15,14 +15,14 @@ class Shoe
 end
 
 
-shoe = Shoe.new("Adidas")
-shoe.brand
+adidas = Shoe.new("Adidas")
+adidas.brand
 
-shoe.color = "red"
-shoe.size = 9.5
-shoe.material = "suede"
-shoe.condition = "tattered"
+adidas.color = "red"
+adidas.size = 9.5
+adidas.material = "suede"
+adidas.condition = "tattered"
 
-shoe = Shoe.new("Nike")
-shoe.cobble
-shoe.condition
+nike = Shoe.new("Nike")
+nike.cobble
+nike.condition
